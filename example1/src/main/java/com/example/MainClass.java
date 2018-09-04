@@ -26,7 +26,7 @@ public class MainClass {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("/home/synerzip/IdeaProjects/hackerrank/output.txt"));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("/home/synerzip/IdeaProjects/hackerrank/example1/output.txt"));
 
         int t = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
